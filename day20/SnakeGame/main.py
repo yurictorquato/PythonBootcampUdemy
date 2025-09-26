@@ -23,27 +23,31 @@ def make_snake(screen) -> list[Turtle]:
     return segments
 
 
-def left(object: Turtle):
-    object.left(90)
+def left(object: list[Turtle]):   
+    object[0].left(90)
 
 
-def right(object: Turtle):
-    object.right(90)
+def right(object: list[Turtle]):
+    object[0].right(90)
 
 
 def snake_game(object: list[Turtle], screen) -> None:
     while True:
         screen.update()
+        sleep(0.1)
 
-        for segment in object:
-            segment.forward(10)
-            segment.speed("fast")
+        for segment in range((len(object) - 1), 0, -1):
+            x = object[segment - 1].xcor()
+            y = object[segment - 1].ycor()
+            
+            object[segment].goto(x, y)
 
-            sleep(0.1)
+        object[0].forward(10)
 
-            screen.listen()
-            screen.onkey(key="a", fun=lambda: left(segment))
-            screen.onkey(key="d", fun=lambda: right(segment))
+        # screen.listen()
+        # screen.onkey(key="a", fun=lambda: left(object))
+        # screen.onkey(key="d", fun=lambda: right(object))
+
 
 
 def main():
