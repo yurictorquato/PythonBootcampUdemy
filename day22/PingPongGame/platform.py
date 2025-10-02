@@ -3,17 +3,17 @@ from turtle import Turtle
 
 class Platform(Turtle):
 
-    def __init__(self):
+    def __init__(self, position: int):
         super().__init__()
-        self.paddle()
+        self.paddle(position)
 
-    def paddle(self) -> None:
+    def paddle(self, position: int) -> None:
         self.penup()
-        self.setx(350)
+        self.setx(position)
         self.setheading(90)
         self.shape("square")
         self.color("white")
-        self.shapesize(stretch_wid=1, stretch_len=4)
+        self.shapesize(stretch_wid=1, stretch_len=5)
 
     def up(self) -> None:
         self.forward(20)

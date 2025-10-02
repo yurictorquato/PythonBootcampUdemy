@@ -12,11 +12,14 @@ def main():
     screen.title("Ping Pong Game")
 
     line = Line()
-    paddle = Platform()
+    right_paddle = Platform(350)
+    left_paddle = Platform(-350)
 
     screen.listen()
-    screen.onkey(key="Up", fun=paddle.up)
-    screen.onkey(key="Down", fun=paddle.down)
+    screen.onkey(key="Up", fun=right_paddle.up)
+    screen.onkey(key="Down", fun=right_paddle.down)
+    screen.onkey(key="Up", fun=left_paddle.up)
+    screen.onkey(key="Down", fun=left_paddle.down)
 
     screen.exitonclick()
 
