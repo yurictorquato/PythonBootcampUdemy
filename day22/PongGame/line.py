@@ -10,7 +10,8 @@ class Line(Turtle):
     def line(self) -> None:
         self.hideturtle()
         self.penup()
-        self.pensize(8)
+        self.pensize(5)
+        self.shape("square")
         self.pencolor("white")
         self.sety(-400)
         self.setheading(90)
