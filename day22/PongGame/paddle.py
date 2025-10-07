@@ -1,13 +1,13 @@
 from turtle import Turtle
 
 
-class Platform(Turtle):
+class Paddle(Turtle):
 
     def __init__(self, position: int):
         super().__init__()
-        self.paddle(position)
+        self.__paddle(position)
 
-    def paddle(self, position: int) -> None:
+    def __paddle(self, position: int) -> None:
         self.penup()
         self.setx(position)
         self.setheading(90)
@@ -15,11 +15,8 @@ class Platform(Turtle):
         self.color("white")
         self.shapesize(stretch_wid=1, stretch_len=5)
 
-    def up(self) -> None:
+    def go_up(self) -> None:
         self.forward(20)
 
-    def down(self) -> None:
-        # if self.position() > 300 or self.position() < -300:
-        #     pass
-
+    def go_down(self) -> None:
         self.forward(-20)
