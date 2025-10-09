@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8cf467-4208-44a5-9103-554494038e99" name="Changes" comment="Projeto ate o dia 22" />
+    <list default="true" id="9b8cf467-4208-44a5-9103-554494038e99" name="Changes" comment="Projeto ate o dia 22">
+      <change afterPath="$PROJECT_DIR$/day23/TrafficGame/car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ruff.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ruff.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day23/TrafficGame/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day23/TrafficGame/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,32 +47,33 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.callback.executor": "Run",
-    "Python.line.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.other_main.executor": "Run",
-    "Python.platform.executor": "Run",
-    "Python.professor_answer.executor": "Run",
-    "Python.professor_answer2.executor": "Run",
-    "Python.quiz_brain.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/yuri/PycharmProjects/my-personal-blog",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.ball.executor&quot;: &quot;Run&quot;,
+    &quot;Python.callback.executor&quot;: &quot;Run&quot;,
+    &quot;Python.line.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.other_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.platform.executor&quot;: &quot;Run&quot;,
+    &quot;Python.professor_answer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.professor_answer2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quiz_brain.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/yuri/PycharmProjects/my-personal-blog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day22/PingPongGame" />
@@ -114,6 +120,11 @@
       <workItem from="1759418630255" duration="2616000" />
       <workItem from="1759424630262" duration="1502000" />
       <workItem from="1759768681382" duration="97000" />
+      <workItem from="1759800338648" duration="14762000" />
+      <workItem from="1759879950000" duration="137000" />
+      <workItem from="1759894854889" duration="13400000" />
+      <workItem from="1759971813609" duration="2475000" />
+      <workItem from="1759982094151" duration="873000" />
     </task>
     <task id="LOCAL-00001" summary="Projeto ate o dia 20">
       <option name="closed" value="true" />
@@ -163,7 +174,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonBootcampUdemy$quiz_brain.coverage" NAME="quiz_brain Coverage Results" MODIFIED="1757946016032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17/QuizGame" />
-    <SUITE FILE_PATH="coverage/PythonBootcampUdemy$main.coverage" NAME="main Coverage Results" MODIFIED="1759025369026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/PingPongGame" />
+    <SUITE FILE_PATH="coverage/PythonBootcampUdemy$ball.coverage" NAME="ball Coverage Results" MODIFIED="1759808217765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/PongGame" />
+    <SUITE FILE_PATH="coverage/PythonBootcampUdemy$main.coverage" NAME="main Coverage Results" MODIFIED="1759941258458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23/TrafficGame" />
     <SUITE FILE_PATH="coverage/PythonBootcampUdemy$callback.coverage" NAME="callback Coverage Results" MODIFIED="1758569353621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day19" />
     <SUITE FILE_PATH="coverage/PythonBootcampUdemy$line.coverage" NAME="line Coverage Results" MODIFIED="1759023697042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/PingPongGame" />
     <SUITE FILE_PATH="coverage/PythonBootcampUdemy$professor_answer.coverage" NAME="professor_answer Coverage Results" MODIFIED="1758376823378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18/turtlechallenge4" />
