@@ -3,4 +3,4 @@
 .vscode
 .idea
 __pycache__
-uv.lock
+uv.lock.idea/workspace.xml
