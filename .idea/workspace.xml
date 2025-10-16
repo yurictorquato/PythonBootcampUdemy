@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b8cf467-4208-44a5-9103-554494038e99" name="Changes" comment="Projeto ate o dia 22">
-      <change afterPath="$PROJECT_DIR$/day23/TrafficGame/car.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ruff.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ruff.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day23/TrafficGame/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day23/TrafficGame/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,9 +172,11 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonBootcampUdemy$quiz_brain.coverage" NAME="quiz_brain Coverage Results" MODIFIED="1757946016032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17/QuizGame" />
     <SUITE FILE_PATH="coverage/PythonBootcampUdemy$ball.coverage" NAME="ball Coverage Results" MODIFIED="1759808217765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/PongGame" />
-    <SUITE FILE_PATH="coverage/PythonBootcampUdemy$main.coverage" NAME="main Coverage Results" MODIFIED="1759941258458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23/TrafficGame" />
+    <SUITE FILE_PATH="coverage/PythonBootcampUdemy$main.coverage" NAME="main Coverage Results" MODIFIED="1760627863492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23/TrafficGame" />
     <SUITE FILE_PATH="coverage/PythonBootcampUdemy$callback.coverage" NAME="callback Coverage Results" MODIFIED="1758569353621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day19" />
+    <SUITE FILE_PATH="coverage/PythonBootcampUdemy$player.coverage" NAME="player Coverage Results" MODIFIED="1760025552529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23/TrafficGame" />
     <SUITE FILE_PATH="coverage/PythonBootcampUdemy$line.coverage" NAME="line Coverage Results" MODIFIED="1759023697042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/PingPongGame" />
+    <SUITE FILE_PATH="coverage/PythonBootcampUdemy$car.coverage" NAME="car Coverage Results" MODIFIED="1760019516812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23/TrafficGame" />
     <SUITE FILE_PATH="coverage/PythonBootcampUdemy$professor_answer.coverage" NAME="professor_answer Coverage Results" MODIFIED="1758376823378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18/turtlechallenge4" />
     <SUITE FILE_PATH="coverage/PythonBootcampUdemy$other_main.coverage" NAME="other_main Coverage Results" MODIFIED="1758634856815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day19/challenge2" />
     <SUITE FILE_PATH="coverage/PythonBootcampUdemy$professor_answer2.coverage" NAME="professor_answer2 Coverage Results" MODIFIED="1758382726329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18/turtlechallenge4" />
