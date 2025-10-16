@@ -7,18 +7,19 @@ class Scoreboard(Turtle):
 
     def __init__(self) -> None:
         super().__init__()
-        self.__level = 1
+        self._level = 1
         self.hideturtle()
         self.teleport(-260, 260)
         self.color("black")
         self.update_scoreboard()
 
+    # MÉTODOS: geralmente verbos (ações)
     def update_scoreboard(self) -> None:
+        self.clear()
         self.write(arg=f"Level: {self.level}", font=FONT)
 
     def add_level(self) -> None:
-        self.__level += 1
-        self.clear()
+        self._level += 1
         self.update_scoreboard()
 
     def win_game(self) -> None:
@@ -29,6 +30,7 @@ class Scoreboard(Turtle):
         self.teleport(0, 0)
         self.write(arg="GAME OVER", align="center", font=FONT)
 
+    # PROPERTY: geralmente substântivos (coisas)
     @property
     def level(self):
-        return self.__level
+        return self._level
