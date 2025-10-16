@@ -1,8 +1,7 @@
-from random import random
 from turtle import Screen
 from time import sleep
 
-from day23.TrafficGame.car import Car
+from day23.TrafficGame.car import CarManager
 from day23.TrafficGame.player import Player
 from day23.TrafficGame.scoreboard import Scoreboard
 
@@ -16,8 +15,7 @@ def main() -> None:
 
     turtle = Player()
     score = Scoreboard()
-
-    cars = []
+    car_manager = CarManager()
 
     screen.listen()
     screen.onkey(turtle.move_up, "Up")
@@ -27,22 +25,20 @@ def main() -> None:
     while is_game_on:
         sleep(0.1)
 
-        if random() < 0.05:
-            for _ in range(5):
-                car = Car()
-                cars.append(car)
+        car_manager.add_car()
+        car_manager.move_all_cars()
 
-        for car in cars:
-            car.move()
-
-            # Detect collision with car
+        # Detect collision with car
+        for car in car_manager.cars:
             if turtle.distance(car) < 20:
                 is_game_on = False
                 score.game_over()
 
-        if turtle.ycor() == 280:
+        # Detect successful crossing line
+        if turtle.is_at_finish_line():
             score.add_level()
             turtle.initial_position()
+            car_manager.move_faster()
 
             # Finish the game with a win
             if score.level == 5:

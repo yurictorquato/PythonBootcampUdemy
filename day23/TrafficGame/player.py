@@ -18,3 +18,9 @@ class Player(Turtle):
 
     def initial_position(self) -> None:
         self.teleport(0, -280)
+
+    def is_at_finish_line(self) -> bool:
+        if self.ycor() < 280:
+            return False
+
+        return True
